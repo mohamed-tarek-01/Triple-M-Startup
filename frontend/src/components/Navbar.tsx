@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
+import Image from "@/components/Image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,10 +26,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-          <img
-            src="https://i.ibb.co/tpN3hxs3/Whats-App-Image-2025-12-04-at-12-57-40-44149921.jpg"   
+          <Image
+            src="/WhatsApp Image 2025-12-04 at 12.57.40_44149921.jpg"
             alt="Triple M logo"
-            className="h-8 w-8"
+            className="h-8 w-8 rounded"
+            fallbackSrc="https://i.ibb.co/tpN3hxs3/Whats-App-Image-2025-12-04-at-12-57-40-44149921.jpg"
           />
           <span className="font-bold text-xl">Triple M</span>
         </Link>

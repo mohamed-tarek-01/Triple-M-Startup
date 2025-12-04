@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { blogPosts } from "@/data/blog";
+import Image from "@/components/Image";
 
 const BlogPost = () => {
   const { id } = useParams();
@@ -72,7 +73,7 @@ const BlogPost = () => {
 
           {/* Featured Image */}
           <div className="mb-12 rounded-xl overflow-hidden shadow-xl animate-slide-up">
-            <img 
+            <Image 
               src={post.image} 
               alt={post.title}
               className="w-full h-[400px] object-cover"

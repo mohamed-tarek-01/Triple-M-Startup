@@ -2,6 +2,7 @@ import { Github, Linkedin, Download, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import KaggleIcon from "@/components/icons/KaggleIcon";
+import Image from "@/components/Image";
 
 
 interface TeamCardProps {
@@ -24,7 +25,7 @@ const TeamCard = ({ member }: TeamCardProps) => {
     <div className="group bg-card rounded-xl overflow-hidden border border-border card-hover">
       {/* Image */}
       <div className="relative h-80 overflow-hidden">
-        <img
+        <Image
           src={member.image}
           alt={member.name}
           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"

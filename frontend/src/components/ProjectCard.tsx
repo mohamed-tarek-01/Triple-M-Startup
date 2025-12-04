@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import Image from "@/components/Image";
 
 interface ProjectCardProps {
   project: {
@@ -19,7 +20,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     <div className="group bg-card rounded-xl overflow-hidden border border-border card-hover">
       {/* Image */}
       <div className="relative h-48 overflow-hidden">
-        <img
+        <Image
           src={project.image}
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { projects } from "@/data/projects";
+import Image from "@/components/Image";
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -86,7 +87,7 @@ const ProjectDetail = () => {
 
           {/* Project Image */}
           <div className="mb-12 rounded-xl overflow-hidden shadow-xl animate-slide-up">
-            <img 
+            <Image 
               src={project.image} 
               alt={project.title}
               className="w-full h-[400px] object-cover"
