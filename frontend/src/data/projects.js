@@ -137,7 +137,7 @@ export const projects = [
     id: 4,
     title: "Exam Timetabling Optimization",
     shortDescription: "Automated exam scheduling system using Genetic Algorithm with multiple evolutionary strategies and constraints.",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
+    image: "/images/exam-timetabling.png",
     technologies: ["Python", "Pandas", "Tkinter", "Matplotlib", "TQDM", "Tabulate", "Jupyter Notebook"],
     category: "Optimization & Scheduling",
     featured: true,
@@ -224,7 +224,7 @@ export const projects = [
     id: 6,
     title: "Lost & Found Management System",
     shortDescription: "Comprehensive platform to report and track lost and found items for institutions and public spaces.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
+    image: "/images/lost-found.png",
     technologies: ["Python", "Flask", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap"],
     category: "Web Development",
     featured: false,
@@ -265,7 +265,7 @@ export const projects = [
     id: 7,
     title: "ECG Signal Classification System",
     shortDescription: "Decision Tree–based system for classifying ECG signals into ARR, AFF, CHF, and NSR.",
-    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=400&fit=crop", 
+    image: "/images/ecg-signal.png", 
     technologies: [
       "Python",
       "Scikit-learn",
@@ -323,7 +323,7 @@ export const projects = [
     id: 8,
     title: "Wuzzuf Market Intelligence Dashboard",
     shortDescription: "Automated job market scraper and analytics dashboard using Selenium and Streamlit.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
+    image: "/images/wuzzuf-dashboard.png",
     technologies: [
       "Python", "Selenium", "Streamlit", "Pandas", 
       "Plotly", "ChromeDriver", "Web Scraping"

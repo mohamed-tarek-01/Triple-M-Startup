@@ -6,7 +6,7 @@ export const teamMembers = [
     id: 1,
     name: "Mohamed Tarek",
     role: "AI/ML Engineer",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/mohamed-tarek.jpg",
     bio: "AI Engineer specializing in deep learning, computer vision, and NLP. Final-year AI student at Helwan University with industry experience at Intelligent Systems (ISYS) in Smart Village, collaborating on real AI projects. Also completed hands-on trainings at NTI and MCIT, gaining practical skills in ML, DL, and data analysis. Experienced in building end-to-end AI solutions from data preprocessing to model deployment using Python and modern deep learning frameworks.",
     skills: [
       "Python",
@@ -41,7 +41,7 @@ export const teamMembers = [
     id: 2,
     name: "Mohamed Abbes",
     role: "Machine Learning Engineer",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/mohamed-abbes.jpg",
     bio: "Machine Learning Engineer and AI student at Helwan University, with industry experience at Intelligent Systems (ISYS) in Smart Village working on practical AI projects. Skilled in deep learning, computer vision, and NLP, with hands-on experience building end-to-end AI solutions from data preprocessing to model deployment using Python and modern frameworks. Also completed practical trainings at NTI, ITI, and Zewail University.",
     skills: [
       "Python",
@@ -75,7 +75,7 @@ export const teamMembers = [
     id: 3,
     name: "Mohamed Bisher",
     role: "Software Engineer & Account Executive",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/mohamed-bisher.png",
     bio: "Software Engineer and Account Executive, Helwan University student with technical and client management skills. Proficient in Full-Stack development (Java, React, HTML/CSS), basic Machine Learning, and Cybersecurity. Experienced in team coordination, customer operations, and bridging communication between engineering, operations, and clients.",
     skills: [
       "Java",
