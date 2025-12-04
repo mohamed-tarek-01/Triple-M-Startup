@@ -137,7 +137,7 @@ export const projects = [
     id: 4,
     title: "Exam Timetabling Optimization",
     shortDescription: "Automated exam scheduling system using Genetic Algorithm with multiple evolutionary strategies and constraints.",
-    image: "https://private-user-images.githubusercontent.com/194944795/444688351-370177cd-19af-4ba1-b775-f898afe5b072.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQ0NTEwMTQsIm5iZiI6MTc2NDQ1MDcxNCwicGF0aCI6Ii8xOTQ5NDQ3OTUvNDQ0Njg4MzUxLTM3MDE3N2NkLTE5YWYtNGJhMS1iNzc1LWY4OThhZmU1YjA3Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEyOVQyMTExNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMmM5MDhkMzExNmY0YzQzYmM4NmMwMzhkNmFhMWQzOGU0Yzk2NGQ1N2E1NDQzZGM3ODY3MzZjODlhYzYwMjQ2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.n3NOKMvWjgVgWWvWkatjXep1_PqvzMJ0G991NJj2tAs",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
     technologies: ["Python", "Pandas", "Tkinter", "Matplotlib", "TQDM", "Tabulate", "Jupyter Notebook"],
     category: "Optimization & Scheduling",
     featured: true,
@@ -224,7 +224,7 @@ export const projects = [
     id: 6,
     title: "Lost & Found Management System",
     shortDescription: "Comprehensive platform to report and track lost and found items for institutions and public spaces.",
-    image: "https://i.ibb.co/jZrhFNT3/Whats-App-Image-2025-11-30-at-20-41-10-fbd4ba27-waifu2x-art-noise2-scale.png",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
     technologies: ["Python", "Flask", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap"],
     category: "Web Development",
     featured: false,
@@ -265,7 +265,7 @@ export const projects = [
     id: 7,
     title: "ECG Signal Classification System",
     shortDescription: "Decision Tree–based system for classifying ECG signals into ARR, AFF, CHF, and NSR.",
-    image: "https://i.ibb.co/VY5XhfCZ/Screenshot-2025-11-30-223103.png", 
+    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=400&fit=crop", 
     technologies: [
       "Python",
       "Scikit-learn",
@@ -323,7 +323,7 @@ export const projects = [
     id: 8,
     title: "Wuzzuf Market Intelligence Dashboard",
     shortDescription: "Automated job market scraper and analytics dashboard using Selenium and Streamlit.",
-    image: "https://i.ibb.co/Kpp2WN5F/Screenshot-2025-11-30-230154.png",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
     technologies: [
       "Python", "Selenium", "Streamlit", "Pandas", 
       "Plotly", "ChromeDriver", "Web Scraping"
