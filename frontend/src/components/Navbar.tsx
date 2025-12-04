@@ -26,7 +26,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
           <img
-            src="WhatsApp Image 2025-12-04 at 12.57.40_44149921.jpg"   // أو أي اسم ملف صورة حطيته في public
+            src="https://i.ibb.co/tpN3hxs3/Whats-App-Image-2025-12-04-at-12-57-40-44149921.jpg"   
             alt="Triple M logo"
             className="h-8 w-8"
           />

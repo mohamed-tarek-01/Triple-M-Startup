@@ -1,1 +1,7 @@
-export async function handler(event, context) {\n  return {\n    statusCode: 200,\n    headers: { 'Content-Type': 'application/json' },\n    body: JSON.stringify({ message: 'Hello from Triple M Startup API!' })\n  };\n}\n
+// Vercel Serverless Function
+export default function handler(req, res) {
+  res.status(200).json({ 
+    message: 'Hello from Triple M Startup API!',
+    timestamp: new Date().toISOString()
+  });
+}
